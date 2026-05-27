@@ -94,6 +94,5 @@ def minimize_errors(graph, initial_estimate, pose_options):
     list_of_errors.append(error1)
     list_of_errors.append(error2)
     list_of_errors.append(error3)
-    # TODO: compute the sum of the errors and return it along with the best pose and landmark
     sum_of_errors=sum(list_of_errors)
     return best_pose, best_landmark, sum_of_errors 
